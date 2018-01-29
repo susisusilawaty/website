@@ -1,0 +1,72 @@
+html {
+	position: relative;
+}
+
+body{
+	margin-bottom:100px; 
+	background-color: #b5128f;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      color: #000;
+      margin: auto;
+      height: 400px;
+
+  }
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+
+
+  }
+    
+   
+    .row.content {height: auto;}
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #ef6ca7;
+      height: auto;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #ef6ca7;
+      color: white;
+      padding: 30px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width:900px) {
+      .sidenav {
+        height: auto;
+        padding: 30px;
+      }
+      .row.content {height:auto;} 
+    }
+
+hr  { 
+	width: 250px;
+	border-top: 3px solid #999;
+
+    }
+
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+	padding-top: 20px;
+	
+
+}
+footer p {
+	color: #aaa;
+	font-size: 1em;
+
+}
